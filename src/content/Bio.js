@@ -5,11 +5,10 @@ import "./Bio.css";
 function Bio() {
   const contacts = <Link className="bioLink">contact</Link>;
 
-  const bioParagraph = `Greetings! I am a full-stack developer graduated from
-    Thinkful's software engineering course as of July 2021. With a long
-    time interest in learning all things computer, web development
-    has been a natural interest of mine. Check out my projects and stack
-    below, and feel free to reach out via my `;
+  const bioParagraph = `Greetings! I am a full-stack developer who graduated from 
+    Thinkful's software engineering course as of July 2021. With a long-time interest
+    in learning all things computer, web development has been a natural interest of mine.
+    Check out my projects and stack below, and feel free to reach out via my `;
 
   return (
     <div className="row justify-content-center bioDiv">

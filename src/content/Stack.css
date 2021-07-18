@@ -1,0 +1,13 @@
+.stackH1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 3vh 0 3vh 0;
+}
+
+.tableDiv{
+    padding: 0 15vh 0 15vh
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+  }

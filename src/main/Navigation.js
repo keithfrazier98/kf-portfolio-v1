@@ -7,13 +7,13 @@ function Navigation() {
       <nav className = "Navi base">
         <ul className="nav justify-content-center">
           <li className="nav-item">
-            <Link>Home</Link>
+            <Link>home</Link>
           </li>
           <li className="nav-item" style={{marginLeft:"50px"}}>
-            <Link>Contact</Link>
+            <Link>contact</Link>
           </li>
           <li className="nav-item" style={{marginLeft:"50px"}}>
-            <Link>Projects</Link>
+            <Link>projects</Link>
           </li>
         </ul>
       </nav>
