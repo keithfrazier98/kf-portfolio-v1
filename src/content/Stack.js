@@ -5,7 +5,7 @@ function Stack() {
   return (
     <div>
       <div className="row justify-content-center">
-        <h1 className="stackH1">developer stack</h1>
+        <h2 className="stackH2">developer stack</h2>
       </div>
       <div className="row justify-content-center tableDiv">
         <div className="col">

@@ -3,6 +3,7 @@ import Routes from "./Routes"
 import Header from "./Header"
 import Bio from "../content/Bio"
 import Stack from "../content/Stack"
+import Projects from "../content/Projects"
 
 function Home() {
  return (
@@ -11,6 +12,7 @@ function Home() {
      <Routes/>
      <Bio/>
      <Stack/>
+     <Projects/>
    </main>
  )
 }
