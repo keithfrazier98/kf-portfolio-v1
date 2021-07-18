@@ -1,16 +1,16 @@
-import React from "react"
-import "./Header.css"
+import React from "react";
+import "./Header.css";
+import Navigation from "./Navigation";
 
 function Header() {
-    return (
-
-        <div>
-          <header className="Header">Keith Frazier</header>
-            <div>
-              <h1>Hello World!</h1>
-            </div>
+  return (
+    <div className="row">
+        <div className="col">
+        <header className="Header base">Keith Frazier</header>
+        <Navigation />
         </div>
-     )
+    </div>
+  );
 }
 
-export default Header
+export default Header;
