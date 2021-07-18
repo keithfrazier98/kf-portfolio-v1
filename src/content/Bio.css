@@ -1,0 +1,14 @@
+.bioPgraph {
+    display: inline-block;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+.bioDiv {
+    padding: 30px 0 0 0;
+}
+
+.bioLink {
+    white-space:"nowrap";
+    display: inline-block;
+}
