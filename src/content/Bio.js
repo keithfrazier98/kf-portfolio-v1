@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Bio.css";
 
 function Bio() {
-  const contacts = <Link className="bioLink">contact</Link>;
+  const contacts = <a href="#contact" className="bioLink">contact</a>;
 
   const bioParagraph = `Greetings! I am a full-stack developer who graduated from 
     Thinkful's software engineering course as of July 2021. With a long-time interest

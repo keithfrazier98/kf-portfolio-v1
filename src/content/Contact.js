@@ -3,7 +3,7 @@ import CopyToClipboard from "react-copy-to-clipboard";
 import "./Contact.css";
 function Contact() {
   return (
-    <div className = "contactsDiv">
+    <div className = "contactsDiv" id="contact">
       <div className="row justify-content-center ">
         <h3>Check my links or reack out via email!</h3>
       </div>

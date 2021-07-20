@@ -3,7 +3,7 @@ import "./Stack.css";
 
 function Stack() {
   return (
-    <div>
+    <div id="stack">
       <div className="row justify-content-center">
         <h2 className="stackH2">developer stack</h2>
       </div>

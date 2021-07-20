@@ -6,7 +6,7 @@ import periodicTables from "../images/periodic-tables.png";
 
 function Projects() {
   return (
-    <div className="projectsDiv">
+    <div className="projectsDiv" id="projects">
       <div className="row justify-content-center">
         <h2 className="projectsH2">projects</h2>
       </div>

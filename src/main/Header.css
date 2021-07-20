@@ -19,7 +19,7 @@
   background-color: #282c34;
   font-family: 'Source Code Pro', monospace;
   padding: 0;
-  position: relative;
+  position: sticky;
 }
 
 .Navi {
