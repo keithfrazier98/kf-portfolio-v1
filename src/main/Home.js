@@ -4,6 +4,7 @@ import Header from "./Header"
 import Bio from "../content/Bio"
 import Stack from "../content/Stack"
 import Projects from "../content/Projects"
+import Contact from "../content/Contact"
 
 function Home() {
  return (
@@ -13,6 +14,7 @@ function Home() {
      <Bio/>
      <Stack/>
      <Projects/>
+     <Contact/>
    </main>
  )
 }

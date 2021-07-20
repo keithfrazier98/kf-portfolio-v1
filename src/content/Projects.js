@@ -34,12 +34,12 @@ function Projects() {
               </p>
             </div>
             <div className="cardLinks">
-              <a href="https://periodic-tables-frontend-three.vercel.app/dashboard">
+              <a className ="btn btn-primary" href="https://periodic-tables-frontend-three.vercel.app/dashboard">
                 Periodic Tables live application ..
               </a>
             </div>
             <div>
-              <a href="https://github.com/keithfrazier98/periodic-tables-monorepo">
+              <a className ="btn btn-secondary" href="https://github.com/keithfrazier98/periodic-tables-monorepo">
                 Check it out on GitHub!
               </a>
             </div>
@@ -67,7 +67,7 @@ function Projects() {
                 engineering cirriculum.
               </p>
             </div>
-            <a href="https://github.com/keithfrazier98/Pomodoro-Timer">
+            <a className ="btn btn-secondary" href="https://github.com/keithfrazier98/Pomodoro-Timer">
               Check it out on GitHub!
             </a>
           </div>
@@ -93,7 +93,7 @@ function Projects() {
                 engineering cirriculum.
               </p>
             </div>
-            <a href="https://github.com/keithfrazier98/GrubDash">
+            <a className ="btn btn-secondary" href="https://github.com/keithfrazier98/GrubDash">
               Check out the API on GitHub!
             </a>
           </div>
