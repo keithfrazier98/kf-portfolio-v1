@@ -5,15 +5,23 @@
 }
 
 .projectsDiv{
+    font-family: 'Source Code Pro', monospace;
     background: rgba(0, 0, 0, 0.432);
     padding: 0 30vh 0 30vh;
 }
 
 .cardDiv{
-    margin: 0 0 10vh 0;
+    margin: 0 5vh 10vh 5vh;
+    width: 30vh;
+    height: fit-content;
+    
 }
 
 .cardImg{
     width:30vh;
     height: 20vh;
+}
+
+.cardLinks{
+    padding:0 0 15px 0
 }
