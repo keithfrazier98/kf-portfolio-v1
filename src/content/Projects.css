@@ -1,8 +1,19 @@
 .projectsH2{
     font-family: 'Source Code Pro', monospace;
     font-size: 5vh;
+    margin: 5vh 0 5vh 0
 }
 
 .projectsDiv{
     background: rgba(0, 0, 0, 0.432);
+    padding: 0 30vh 0 30vh;
+}
+
+.cardDiv{
+    margin: 0 0 10vh 0;
+}
+
+.cardImg{
+    width:30vh;
+    height: 20vh;
 }
