@@ -3,3 +3,9 @@
   font-family: "Source Code Pro", monospace;
 }
 
+.contactsUl{
+  justify-content: center;
+}
+
+.contactsH3Div{
+box-sizing:border-box;}

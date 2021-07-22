@@ -7,7 +7,7 @@ function Navigation() {
       <nav className = "Navi base">
         <ul className="nav justify-content-center">
           <li className="nav-item">
-            <a href = "#home">home</a>
+            <a href = "/home">home</a>
           </li>
           <li className="nav-item" style={{marginLeft:"50px"}}>
             <a href="#contact">contact</a>
@@ -19,7 +19,7 @@ function Navigation() {
             <a href="#stack">stack</a>
           </li>
           <li className="nav-item" style={{marginLeft:"50px"}}>
-            <a href="#resume">resume</a>
+            <a href="/resume">resume</a>
           </li>
         </ul>
       </nav>
