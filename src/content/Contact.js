@@ -5,13 +5,13 @@ function Contact() {
   return (
     <div className="contactsDiv" id="contact">
       <div className="row justify-content-center">
-        <div className="col-5 contactsH3Div">
+        <div className="col col-lg-5 contactsH3Div">
           <h3 style={{  paddingLeft: "25px"}}>Check my links or reach out via email!</h3>
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-5">
-          <ul className="list-group list-group-horizontal list-group-flush contactsUl">
+        <div className="col col-lg-5">
+          <ul className="list-group list-group-flush contactsUl">
             <li className="list-group-item">
               <a
                 target="_blank"

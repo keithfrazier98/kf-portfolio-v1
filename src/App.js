@@ -1,16 +1,14 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
-
+import Header from "./main/Header";
+import Routes from "./main/Routes";
 import "./App.css";
-import Home from "./main/Home";
 
 function App() {
   return (
-    <Switch>
-      <Route path ="/">
-        <Home/>
-      </Route>
-    </Switch>
+    <main className="container-fluid" style={{ padding: "0" }}>
+      <Header/>
+      <Routes />
+    </main>
   );
 }
 

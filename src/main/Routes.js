@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Home from "./Home";
-import Resume from "../content/Resume"
+import Resume from "../content/Resume";
 
 function Routes() {
   return (
@@ -9,8 +9,11 @@ function Routes() {
       <Route exact path="/">
         <Redirect to={"/home"} />
       </Route>
+      <Route exact path="/home">
+        <Home />
+      </Route>
       <Route path="/resume">
-        <Resume/>
+        <Resume />
       </Route>
     </Switch>
   );

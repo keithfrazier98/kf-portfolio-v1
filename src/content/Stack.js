@@ -8,7 +8,7 @@ function Stack() {
         <h2 className="stackH2">developer stack</h2>
       </div>
       <div className="row justify-content-center tableDiv">
-        <div className="col">
+        <div className="col col-lg-3">
           <table className="table table-hover">
             <thead>
                 <th scope="col">Front-End</th>
@@ -25,7 +25,7 @@ function Stack() {
             </tbody>
           </table>
         </div>
-        <div className="col">
+        <div className="col col-lg-3">
           <table className="table table-hover">
             <thead>
               <th scope="col">Back-End</th>
@@ -42,7 +42,7 @@ function Stack() {
             </tbody>
           </table>
         </div>
-        <div className="col">
+        <div className="col col-lg-3">
           <table className="table table-hover">
             <thead>
               <th scope="col">Tools</th>
@@ -59,7 +59,7 @@ function Stack() {
             </tbody>
           </table>
         </div>
-        <div className="col">
+        <div className="col col-lg-3">
           <table className="table table-hover">
             <thead>
               <th scope="col">Conceptual Understanding</th>

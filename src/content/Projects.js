@@ -25,14 +25,12 @@ function Projects() {
             >
               A restaurant reservation application.
             </h5>
-            <div>
-              <p>
+             <p classNamev="card-text">
                 This applicaiton is for creating and managing tables and
                 reservations for a hypothetical restaurant. It was a full-stack
                 project completed as part of Thinkful's software engineering
                 cirriculum.
               </p>
-            </div>
             <div className="cardLinks">
               <a className ="btn btn-primary" href="https://periodic-tables-frontend-three.vercel.app/dashboard">
                 Periodic Tables live application ..
@@ -59,14 +57,12 @@ function Projects() {
             >
               A timer for work an break sessions.
             </h5>
-            <div>
-              <p>
+              <p classNamev="card-text">
                 With this application a user can set a duration for work
                 sessions and break sessions to optimize productivity. It was a
                 front-end project completed as part of Thinkful's software
                 engineering cirriculum.
               </p>
-            </div>
             <a className ="btn btn-secondary" href="https://github.com/keithfrazier98/Pomodoro-Timer">
               Check it out on GitHub!
             </a>
@@ -86,13 +82,11 @@ function Projects() {
             >
               A food delivery service.
             </h5>
-            <div>
-              <p>
+              <p classNamev="card-text">
                 This is a hypothetical food delivery service application. This
                 was completed as a back-end project for Thinkful's software
                 engineering cirriculum.
               </p>
-            </div>
             <a className ="btn btn-secondary" href="https://github.com/keithfrazier98/GrubDash">
               Check out the API on GitHub!
             </a>
