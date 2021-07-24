@@ -1,6 +1,6 @@
 .projectsH2{
     font-family: 'Source Code Pro', monospace;
-    font-size: 5vh;
+    font-size: calc(20px + 1.5vw);
     margin: 5vh 0 5vh 0
 }
 
@@ -11,7 +11,7 @@
 
 .cardDiv{
     margin: 0 5vh 10vh 5vh;
-    width: 18em;
+    width: 25em;
     height: fit-content;
     
 }
@@ -25,3 +25,9 @@
     margin: 0 0 15px 0;
 }
 
+@media all and (min-width:600px){
+    .projectsH2{
+        font-size: 3rem;
+
+    }
+}

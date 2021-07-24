@@ -1,3 +1,5 @@
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -6,36 +8,62 @@
 .Header {
   min-height: 10vh;
   flex-direction: column;
-  font-size: calc(20px + 2vmin);
+  font-size: calc(30px + 2vmin);
   color: white;
   font-weight: 200;
-  font-size: 10vh;
 }
 
 .base {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #282c34;
   font-family: 'Source Code Pro', monospace;
-  padding: 0;
+  padding: 0 3vh 0 3vh;
+  width:100%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 150px;
+  margin: -100px 0 0;
+}
+
+.NavScroll{
+  background-color: #282c34 !important;
+  z-index: 1 !important;
   position: sticky;
+  top: 0px;
 }
 
 .Navi {
-  margin: 0;
   min-height: 5vh;
   font-weight: 300;
 }
 
-header {
-  font-size: calc(10px + 2vmin);
-}
 
 li {
-  font-size: calc(2px + 2vmin);
+  font-size: calc(4px + 1.5vw);
+  margin: 0 5px 0 5px;
 }
 
-.App-link {
-  color: #61dafb;
+a, button{
+  color: #b6efff;
+}
+
+@media all and (min-width: 600px){
+  
+  .Header{
+    font-size: calc(40px + 2vw);
+  }
+
+  li {
+    font-size: calc(2px + 1vw);
+    margin: 0 10px 0 10px;
+  }
+
 }

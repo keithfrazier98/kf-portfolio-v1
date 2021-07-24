@@ -11,8 +11,8 @@ function Bio() {
     Check out my projects and stack below, and feel free to reach out via my `;
 
   return (
-    <div className="row justify-content-center bioDiv">
-      <div className="col-6 bioPgraph">
+    <div className="row justify-content-center bioDiv" id="home">
+      <div className="col-8  col-xs-10 col-lg-6 bioPgraph">
         {bioParagraph}
         {contacts}
         {` links.`}
