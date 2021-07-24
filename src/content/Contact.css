@@ -1,17 +1,17 @@
 .contactsDiv {
-    padding: 10vh 0 10vh 0;
+  padding: 10vh 0 10vh 0;
   font-family: "Source Code Pro", monospace;
 }
 
 .contactsUl{
   justify-content: center;
+
 }
+
 
 .contactsH3Div{
 box-sizing:border-box;}
 
-@media screen and (min-width: 480px) {
-  ul {
-    display: inline;
-  }
+@media all and (min-width: 600px) {
+ 
 }

@@ -3,15 +3,15 @@ import "./Stack.css";
 
 function Stack() {
   return (
-    <div id="stack" >
+    <div id="stack" className="stackDiv">
       <div className="row justify-content-center">
         <h2 className="stackH2">developer stack</h2>
       </div>
       <div className="row justify-content-center tableDiv">
-        <div className="col col-lg-3">
-          <table className="table table-hover">
+        <div className="col-9 col-lg-3">
+          <table className="table ">
             <thead>
-                <th scope="col">Front-End</th>
+                <th className="text-center" scope="col">Front-End</th>
             </thead>
             <tbody>
               <tr><td>Javascript</td></tr>
@@ -25,10 +25,10 @@ function Stack() {
             </tbody>
           </table>
         </div>
-        <div className="col col-lg-3">
-          <table className="table table-hover">
-            <thead>
-              <th scope="col">Back-End</th>
+        <div className="col-9 col-lg-3">
+          <table className="table">
+            <thead >
+              <th className="text-center" scope="col">Back-End</th>
             </thead>
             <tbody>
               <tr><td>Node.js</td></tr>
@@ -42,10 +42,10 @@ function Stack() {
             </tbody>
           </table>
         </div>
-        <div className="col col-lg-3">
-          <table className="table table-hover">
+        <div className="col-9 col-lg-3">
+          <table className="table ">
             <thead>
-              <th scope="col">Tools</th>
+              <th className="text-center" scope="col">Tools</th>
             </thead>
             <tbody>
               <tr><td>VS Code</td></tr>
@@ -59,10 +59,10 @@ function Stack() {
             </tbody>
           </table>
         </div>
-        <div className="col col-lg-3">
-          <table className="table table-hover">
+        <div className="col-9 col-lg-3">
+          <table className="table ">
             <thead>
-              <th scope="col">Conceptual Understanding</th>
+              <th className="text-center"scope="col">Conceptual Understanding</th>
             </thead>
             <tbody>
                 <tr><td>Test-Driven Development</td></tr>

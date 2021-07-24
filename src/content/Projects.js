@@ -27,7 +27,7 @@ function Projects() {
             </h5>
              <p classNamev="card-text">
                 This applicaiton is for creating and managing tables and
-                reservations for a hypothetical restaurant. It was a full-stack
+                reservations for a hypothetical restaurant. It is a full-stack
                 project completed as part of Thinkful's software engineering
                 cirriculum.
               </p>
@@ -59,7 +59,7 @@ function Projects() {
             </h5>
               <p classNamev="card-text">
                 With this application a user can set a duration for work
-                sessions and break sessions to optimize productivity. It was a
+                sessions and break sessions to optimize productivity. It is a
                 front-end project completed as part of Thinkful's software
                 engineering cirriculum.
               </p>
