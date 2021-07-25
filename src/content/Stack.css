@@ -1,21 +1,48 @@
-.stackH2{
-    font-family: 'Source Code Pro', monospace;
-    padding: 3vh 0 3vh 0;
-    font-size: calc(20px + 1.5vw);
+.stackH2 {
+  font-family: "Source Code Pro", monospace;
+  padding: 3vh 0 3vh 0;
+  font-size: calc(20px + 1.5vw);
 }
 
-.stackDiv{
-    padding: 0 5vw 0 5vw;
+.stackDiv {
+  padding: 0 5vw 0 5vw;
 }
 
-th, td {
-    padding: 15px;
-    text-align: left;
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+.marquee {
+  width: 100%;
+  line-height: 20px;
+  background-color: rgb(255, 255, 255);
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0 0 30px 0
+}
+
+
+.stackImg {
+  width: 50px;
+  margin: 0 50px 0 50px;
+ 
+}
+
+.marquee img {
+    display: inline-block;
+    animation: marquee 25s linear infinite;
+}
+
+@keyframes marquee {
+    0%   { transform: translateX(0%); }
+    100% { transform: translateX(-4500%); }
+}
+
+@media all and (min-width: 600px) {
+  .stackH2 {
+    font-size: 3rem;
   }
-
-@media all and (min-width:600px){
-    .stackH2{
-        font-size: 3rem;
-
-    }
 }

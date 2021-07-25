@@ -5,8 +5,8 @@ import "./Bio.css";
 function Bio() {
   const contacts = <a href="#contact" className="bioLink">contact</a>;
 
-  const bioParagraph = `Greetings! I am a full-stack developer who graduated from 
-    Thinkful's software engineering course as of July 2021. With a long-time interest
+  const bioParagraph = `I am a full-stack developer who graduated from 
+    Thinkful's software engineering course in July of 2021. With a long-time interest
     in learning all things computer, web development has been a natural interest of mine.
     Check out my projects and stack below, and feel free to reach out via my `;
 
