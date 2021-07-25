@@ -62,7 +62,7 @@ a, button{
   }
 
   li {
-    font-size: calc(2px + 1vw);
+    font-size: calc(10px + 1vmin);
     margin: 0 10px 0 10px;
   }
 

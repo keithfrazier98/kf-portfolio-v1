@@ -1,0 +1,15 @@
+.wrapperSizing{
+    
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        overflow: visible;
+      
+}
+
+@media all and (min-width:600px){
+    .wrapperSizing{
+        height: 60vh;
+        width: 60vw;
+    }
+}

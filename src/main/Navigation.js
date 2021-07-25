@@ -44,7 +44,9 @@ function Navigation() {
             <a href={stack}>stack</a>
           </li>
           <li className="nav-item">
-            <a href="/resume">resume</a>
+            <a rel="noreferrer"
+                target="_blank"
+                href="https://docs.google.com/document/d/1lyzqIdaKLNONQzZzmr_ezfycAKTVTe0XhHBLmFnq01M/edit?usp=sharing">resume</a>
           </li>
         </ul>
       </nav>
