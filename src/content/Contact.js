@@ -6,7 +6,9 @@ function Contact() {
     <div className="contactsDiv" id="contact">
       <div className="row justify-content-center">
         <div className="col col-lg-6 contactsH3Div">
-          <h3 style={{  paddingLeft: "60px"}}>Check out my links or reach out via email!</h3>
+          <h3 style={{ paddingLeft: "60px" }}>
+            Check out my links or reach out via email!
+          </h3>
         </div>
       </div>
       <div className="row justify-content-center">
@@ -14,6 +16,7 @@ function Contact() {
           <ul className="list-group list-group-flush list-group-horizontal-lg contactsUl">
             <li className="list-group-item">
               <a
+                rel="noreferrer"
                 target="_blank"
                 className="btn btn-outline-secondary"
                 href="https://github.com/keithfrazier98"
@@ -23,6 +26,7 @@ function Contact() {
             </li>
             <li className="list-group-item">
               <a
+                rel="noreferrer"
                 target="_blank"
                 className="btn btn-outline-secondary"
                 href="https://www.linkedin.com/in/keith-frazier/"

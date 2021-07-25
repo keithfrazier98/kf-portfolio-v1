@@ -9,6 +9,9 @@ function Routes() {
       <Route exact path="/">
         <Redirect to={"/home"} />
       </Route>
+      <Route path="/resume#stack">
+        <Redirect to={"/home#stack"} />
+      </Route>
       <Route exact path="/home">
         <Home />
       </Route>
