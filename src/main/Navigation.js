@@ -41,10 +41,6 @@ function Navigation() {
           <li className="nav-item">
             <a href={stack}>stack</a>
           </li>
-          <li className="nav-item">
-            <a href="#showoff"> Check this out!</a>
-            Check this out!
-          </li>
         </ul>
       </nav>
     </div>
@@ -52,3 +48,8 @@ function Navigation() {
 }
 
 export default Navigation;
+
+/*<li className="nav-item">
+            <a href="#showoff"> Check this out!</a>
+            Check this out!
+          </li>*/
