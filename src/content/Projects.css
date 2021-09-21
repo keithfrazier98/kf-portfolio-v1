@@ -20,8 +20,6 @@
     height: fit-content;
     background-color: #282c34 !important;
     transition: transform 1s;
-
-    
 }
 
 .cardDiv:hover{
