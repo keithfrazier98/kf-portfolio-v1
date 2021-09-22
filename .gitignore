@@ -7,9 +7,15 @@
 
 # testing
 /coverage
-
+Grid.css
+Lights.js
+Puzzle.js
+UseArrowKeys.js
+Grid.js
 # production
 /build
+
+
 
 # misc
 .DS_Store
