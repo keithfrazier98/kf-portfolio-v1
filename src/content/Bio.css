@@ -7,9 +7,16 @@
 .bioDiv {
     padding: 15vh 0 15vh 0;
     background: rgba(0, 0, 0, 0.432);
+    font-size: .75em;
 }
 
 .bioLink {
     white-space:"nowrap";
     display: inline-block;
+}
+
+@media all and (min-width: 1250px){
+    .bioDiv{
+        font-size: 1em;
+    }
 }

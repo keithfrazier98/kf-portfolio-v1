@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import grubdash from "../images/grubdash.png";
-import pomodoro from "../images/pomodoro.png";
+import spot from "../images/spot.png";
 import periodicTables from "../images/periodic-tables.png";
 
 function Projects() {
@@ -75,27 +75,29 @@ function Projects() {
         <div className="card cardDiv">
           <img
             className="card-img-top cardImg"
-            src={pomodoro}
-            alt="Pomodoro Screenshot"
+            src={spot}
+            alt="Spot Screenshot"
           />
           <div className="card-body">
-            <h3 className="card-title projectsH3">Pomodoro Timer</h3>
+            <h3 className="card-title projectsH3">Spot</h3>
             <h5
               class="card-subtitle mb-2 text-muted"
               style={{ fontSize: "1rem" }}
             >
-              A timer for work an break sessions.
+              A business and location finder.
             </h5>
             <p classNamev="card-text">
-              With this application, a user can set a duration for work sessions
-              and break sessions to optimize productivity. It is a front-end
-              project completed as part of Thinkful's software engineering
-              curriculum.
+              Utilizing yelps API and npm 'yelp-fusion' package, this is a
+              business finder tool that can be used to look up businesses using
+              your coordinates or a city/state location. Built with mobile-first
+              design principles, the application is entirely responsive. Lookup
+              businesses, or locations like parks and beaches, and filter your
+              results with the provided filter options.
             </p>
             <div className="cardLinks btn-group" role="group">
               <a
                 className="btn btn-primary"
-                href="https://pomodoro-timer-rouge.vercel.app/"
+                href="https://spot-beta.vercel.app/"
                 target="_blank"
               >
                 Live{" "}
@@ -112,7 +114,7 @@ function Projects() {
               </a>
               <a
                 className="btn btn-secondary"
-                href="https://github.com/keithfrazier98/Pomodoro-Timer"
+                href="https://github.com/keithfrazier98/spot"
                 target="_blank"
               >
                 GitHub{" "}
