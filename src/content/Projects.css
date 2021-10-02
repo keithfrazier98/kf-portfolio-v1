@@ -17,6 +17,10 @@
     margin: 0 10px 10px 0 
 }
 
+.badgeDiv{
+    padding: 10px;
+}
+
 .cardDiv {
   margin: 0 5vh 10vh 5vh;
   width: 20em;
