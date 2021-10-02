@@ -25,6 +25,14 @@ function Projects() {
             >
               A restaurant reservation application.
             </h5>
+            <div className="row badgeDiv">
+            <span className="badge bg-dark">JavaScript</span>
+            <span className="badge bg-dark">React</span>
+            <span className="badge bg-dark">Express</span>
+            <span className="badge bg-dark">Knex</span>
+            <span className="badge bg-dark">Bootstrap</span>
+            <span className="badge bg-dark">PostgreSQL</span>
+            </div>
             <p className="card-text">
               This application is for creating and managing tables and
               reservations for a hypothetical restaurant. It is a full-stack
@@ -86,6 +94,14 @@ function Projects() {
             >
               A business and location finder.
             </h5>
+            <div className="row badgeDiv">
+            <span className="badge bg-dark">JavaScript</span>
+            <span className="badge bg-dark">React</span>
+            <span className="badge bg-dark">Express</span>
+            <span className="badge bg-dark">Knex</span>
+            <span className="badge bg-dark">Bootstrap</span>
+            <span className="badge bg-dark">PostgreSQL</span>
+            </div>
             <p classNamev="card-text">
               Utilizing yelps API and npm 'yelp-fusion' package, this is a
               business finder tool that can be used to look up businesses using
@@ -146,8 +162,13 @@ function Projects() {
             >
               A food delivery service.
             </h5>
+            <div className="row badgeDiv">
+            <span className="badge bg-dark">JavaScript</span>
+            <span className="badge bg-dark">Express</span>
+            <span className="badge bg-dark">Knex</span>
+            </div>
             <p classNamev="card-text">
-              This is a hypothetical food delivery service application. This was
+              This is a food delivery service application. This was
               completed as a back-end project for Thinkful's software
               engineering curriculum.
             </p>
