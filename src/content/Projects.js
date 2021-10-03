@@ -31,6 +31,7 @@ function Projects() {
             <span className="badge bg-dark">Express</span>
             <span className="badge bg-dark">Knex</span>
             <span className="badge bg-dark">Bootstrap</span>
+            <span className="badge bg-dark">CSS</span>
             <span className="badge bg-dark">PostgreSQL</span>
             </div>
             <p className="card-text">
@@ -99,7 +100,7 @@ function Projects() {
             <span className="badge bg-dark">React</span>
             <span className="badge bg-dark">Express</span>
             <span className="badge bg-dark">Knex</span>
-            <span className="badge bg-dark">Bootstrap</span>
+            <span className="badge bg-dark">Vanilla CSS</span>
             <span className="badge bg-dark">PostgreSQL</span>
             </div>
             <p classNamev="card-text">

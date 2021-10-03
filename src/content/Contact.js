@@ -56,14 +56,14 @@ function Contact() {
             </li>
             <li className="list-group-item">
               <div>
-                <CopyToClipboard text="keithfrazier98@gmail.com">
+                <CopyToClipboard text="keithers98@gmail.com">
                   <button
                     className="btn btn-outline-secondary"
                     onClick={() => {
                       alert("Copied!");
                     }}
                   >
-                    keithfrazier98@gmail.com {" "}
+                    keithers98@gmail.com {" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
