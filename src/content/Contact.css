@@ -1,6 +1,15 @@
 .contactsDiv {
   padding: 10vh 0 10vh 0;
   font-family: "Source Code Pro", monospace;
+  background-position: 0 -20px;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 53%,
+    rgba(0, 0, 0, 0) 100%
+  ),url("../images/contactBg.png")
+
 }
 
 .contactsUl {
@@ -13,6 +22,37 @@
 
 .contactsH3Div > h3 {
   font-size: 1em;
+}
+
+.submitFormBtn {
+  width: 50%;
+  height: 40px;
+  background-image: url("../images/formBtnBg.png");
+  background-position: -5px -15px;
+  box-shadow: 7px 7px 5px rgb(38, 57, 65);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.contactFormInput{
+  margin-bottom: 20px;
+  background-color: rgb(155, 187, 184);
+  color: black;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 7px 7px 5px rgb(32, 102, 129);
+  font-size: 20px;
+}
+
+.contactForm{
+  color: white;
+background-color: rgb(0, 43, 38);
+border-radius: 20px;
+padding:20px;
+box-shadow: 10px 10px 5px black;
 }
 
 @media all and (min-width: 840px) {

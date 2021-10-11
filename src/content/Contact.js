@@ -1,7 +1,13 @@
 import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
 import CopyToClipboard from "react-copy-to-clipboard";
 import "./Contact.css";
 function Contact() {
+  const [state, handleSubmit] = useForm("xnqlryyy");
+  if (state.succeeded) {
+    window.alert("Message Sent!")
+  }
+
   return (
     <div className="contactsDiv" id="contact">
       <div className="row justify-content-center">
@@ -12,7 +18,7 @@ function Contact() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-10 col-lg-6">
+        <div className="col-10 col-lg-6 d-flex flex-column justify-content-center">
           <ul className="list-group list-group-flush list-group-horizontal-lg contactsUl">
             <li className="list-group-item">
               <a
@@ -63,7 +69,7 @@ function Contact() {
                       alert("Copied!");
                     }}
                   >
-                    keithers98@gmail.com {" "}
+                    keithers98@gmail.com{" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -79,6 +85,25 @@ function Contact() {
               </div>
             </li>
           </ul>
+
+          <form onSubmit={handleSubmit} className="contactForm d-flex mt-2 flex-column w-50 align-self-center">
+            <label htmlFor="email">You can email me here too!</label>
+            <input id="email" className="contactFormInput" type="email" name="email" placeholder="email address" />
+            <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
+            />
+            <textarea id="message" className="contactFormInput" name="message" rows="5"/>
+            <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
+            />
+            <button type="submit" className="submitFormBtn" disabled={state.submitting}>
+              Submit
+            </button>
+          </form>
         </div>
       </div>
     </div>
